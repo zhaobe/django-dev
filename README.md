@@ -3,6 +3,7 @@
 ## Setting up Django:
 - if you want to use Django with a database, make sure to setup either PostgreSQL, MySQL, Oracle or SQLite.
 - install `pip` if you have not.
+- use `python -c "import django; print(django.__path__)"` to find if you have Django already installed.
 
 - setup virtualenv, refer to [this](https://virtualenv.pypa.io/en/stable/installation/)
 
@@ -13,3 +14,4 @@
 - to activate the virtualenv, use `source venv/bin/activate`.
 - to deactivate the virtualenv, use `deactivate`, unless error says otherwise.
 - activate virtualenv and use `pip install Django`, to install Django, refer to [this](https://docs.djangoproject.com/en/1.10/topics/install/#installing-official-release)
+- use `python -c "import django; print(django.__path__)"` to confirm your newly installed Django.
