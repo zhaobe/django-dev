@@ -5,7 +5,6 @@
 - install `pip` if you have not.
 
 - setup virtualenv, refer to [this](https://virtualenv.pypa.io/en/stable/installation/)
-- install Django with `pip install Django`, refer to [this](https://docs.djangoproject.com/en/1.10/topics/install/#installing-official-release)
 
 ## Using virtualenv
 - once you install virtualenv, you may `cd` to your home directory and make a directory to hold your virtual environment.
@@ -13,3 +12,4 @@
 - then use `virtualenv venv --distribute`, you should see a new python executable being created and installing of other tools.
 - to activate the virtualenv, use `source venv/bin/activate`.
 - to deactivate the virtualenv, use `deactivate`, unless error says otherwise.
+- activate virtualenv and use `pip install Django`, to install Django, refer to [this](https://docs.djangoproject.com/en/1.10/topics/install/#installing-official-release)
