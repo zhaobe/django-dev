@@ -18,4 +18,5 @@
 - there is a gitignore for python so env or venv dependencies won't conflict with collaboration.
 
 ## Setup Project
-- 
+- good reference from [mozilla] (https://developer.mozilla.org/en-US/docs/Learn/Server-side/Django/development_environment)
+- same reference from [django] (https://docs.djangoproject.com/en/1.10/intro/tutorial01/)
