@@ -15,4 +15,7 @@
 - activate virtualenv, and use `pip install django`, to install Django, refer to [this](https://docs.djangoproject.com/en/1.10/topics/install/#installing-official-release)
 - use `which django-admin.py` to confirm your newly installed Django within your virtual environment.
 
+- there is a gitignore for python so env or venv dependencies won't conflict with collaboration.
 
+## Setup Project
+- 
