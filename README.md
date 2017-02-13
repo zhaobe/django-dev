@@ -20,3 +20,8 @@
 ## Setup Project
 - good reference from [mozilla] (https://developer.mozilla.org/en-US/docs/Learn/Server-side/Django/development_environment)
 - same reference from [django] (https://docs.djangoproject.com/en/1.10/intro/tutorial01/)
+
+# Part 2 - Database
+- `python manage.py makemigrations`, makemigrations tells Django there were changes to the models and you would like to store them as migration. Run this command to create migrations for those changes.
+- `python manage.py migrate`, to apply changes to the database.
+- `python manage.py check`, checks for any problems in the project without touching the database.
