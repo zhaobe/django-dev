@@ -25,3 +25,5 @@
 - `python manage.py makemigrations`, makemigrations tells Django there were changes to the models and you would like to store them as migration. Run this command to create migrations for those changes.
 - `python manage.py migrate`, to apply changes to the database.
 - `python manage.py check`, checks for any problems in the project without touching the database.
+- DONE: Playing with API section is familiarized, may refer back if confused.
+- TODO: Introduction the Django Admin
