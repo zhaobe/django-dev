@@ -21,9 +21,9 @@
 - good reference from [mozilla] (https://developer.mozilla.org/en-US/docs/Learn/Server-side/Django/development_environment)
 - same reference from [django] (https://docs.djangoproject.com/en/1.10/intro/tutorial01/)
 
-# Part 2 - Database
+# Part 2 - Database Checklist
 - `python manage.py makemigrations`, makemigrations tells Django there were changes to the models and you would like to store them as migration. Run this command to create migrations for those changes.
 - `python manage.py migrate`, to apply changes to the database.
 - `python manage.py check`, checks for any problems in the project without touching the database.
-- DONE: Playing with API section is familiarized, may refer back if confused.
-- TODO: Introduction the Django Admin
+- Playing with API section is familiarized, may refer back if confused.
+- Added super user and once server is activated `python manage.py runserver`, go to `http://127.0.0.1:8000/admin/` for login.
