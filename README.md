@@ -9,7 +9,7 @@
 
 ## Using virtualenv
 - once you install virtualenv, you may `cd` to your target directory and make a virtual environment with `virtualenv env`.
-- type `source ./env/bin/activate` and you should see `(env)` in your command line.
+- make sure you are in the root directory, type `source ./env/bin/activate` and you should see `(env)` in your command line.
 - to deactivate the virtualenv, use `deactivate`, unless error says otherwise.
 
 - activate virtualenv, and use `pip install django`, to install Django, refer to [this](https://docs.djangoproject.com/en/1.10/topics/install/#installing-official-release)
