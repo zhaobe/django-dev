@@ -21,6 +21,11 @@ class Question(models.Model):
         return now - datetime.timedelta(days=1) <= self.pub_date <= now
         # returns True for future date
         return self.pub_date >= timezone.now() - datetime.timedelta(days=1)
+    
+    # to improve method by adding attributes below
+    was_published_recently.admin_order_field = 'pub_date'
+    was_published_recently.boolean = True
+    was_published_recently.short_description = 'Published recently?'
 
 @python_2_unicode_compatible
 class Choice(models.Model):
