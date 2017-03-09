@@ -36,5 +36,6 @@
 ## Advanced tutorial: Writing reusable apps
 ### Setup
 - make sure you have the virtual env running
-- then we will install setuptools with `pip -install setuptools`
+- then we will install setuptools with `pip install setuptools`
 - you might get a couple messages saying `Requirement already satisfied: ...`
+- next you will need to `pip install distribute` also
