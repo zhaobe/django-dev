@@ -32,3 +32,9 @@
 - `python manage.py runserver` will run the server
 - `python manage.py shell` will run the shell 
 - `python manage.py test polls` will look for tests in polls application and run a mock db for testing
+
+## Advanced tutorial: Writing reusable apps
+### Setup
+- make sure you have the virtual env running
+- then we will install setuptools with `pip -install setuptools`
+- you might get a couple messages saying `Requirement already satisfied: ...`
