@@ -38,4 +38,11 @@
 - make sure you have the virtual env running
 - then we will install setuptools with `pip install setuptools`
 - you might get a couple messages saying `Requirement already satisfied: ...`
-- next you will need to `pip install distribute` also
+- next you will need to `pip install distribute`
+
+### Packaging the app and installing it
+- add the LICENSE, README.rst, and the MANIFEST.in
+- run `python setup.py sdist` inside django-polls directory to create dist directory and build django-polls-0.1.tar.gz
+- make sure you have the virtual env running (env), then install new package with `pip install django-polls/dist/django-polls-0.1.tar.gz`
+- cd to the the mysite directory and run the server `python manage.py runserver` to make sure everything is working
+- to uninstall the package, you can use `pip uninstall django-polls`
