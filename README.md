@@ -29,8 +29,8 @@
 - Added super user and once server is activated `python manage.py runserver`, go to `http://127.0.0.1:8000/admin/` for login.
 
 ## Handy Commands
-- `python manage.py runserver` will run the server
-- `python manage.py shell` will run the shell 
+- cd to mysite and use `python manage.py runserver` to run the server
+- `python manage.py shell` will run the shell for testing purposes
 - `python manage.py test polls` will look for tests in polls application and run a mock db for testing
 
 ## Advanced tutorial: Writing reusable apps
