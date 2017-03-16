@@ -1,5 +1,7 @@
 # django-dev
 
+[![Travis](https://travis-ci.org/zhaobe/django-dev.svg?branch=master)](https://travis-ci.org/zhaobe/django-dev)
+
 ## Setting up Django:
 - if you want to use Django with a database, make sure to setup either PostgreSQL, MySQL, Oracle or SQLite.
 - install `pip` if you have not.
