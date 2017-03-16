@@ -8,9 +8,9 @@ python:
     - "3.5"
     - "3.6"
 env:
-    - DJANGO_VERSION=1.10.5
+    - DJANGO_SETTINGS_MODULE=django-polls.settings
 before_install:
     - cd django-polls
 install: 
     - "pip install -r requirements.txt"
-script: python manage.py test polls
+script: python manage.py test
