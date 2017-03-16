@@ -3,7 +3,7 @@ python:
     - "2.7"
     - "3.6"
 env:
-    - DJANGO_SETTINGS_MODULE=django-polls.settings
+    - DJANGO_VERSION=1.10.5
 before_install:
     - cd django-polls
 install: 
